@@ -1,0 +1,14 @@
+{
+  "name": "notez",
+  "description": "Collaborative note taking application.",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.16.0",
+    "express": "^4.16.2"
+  },
+  "scripts": {
+    "start": "node ./index.js",
+    "debug": "nodemon --inspect ./index.js"
+  }
+}
